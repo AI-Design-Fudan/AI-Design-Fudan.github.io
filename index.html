@@ -12,7 +12,7 @@
   <div class="main">
     <div class="main-head">
       <div class="head-pc">
-        <div class="name">AI Design Lab Patrick Chiang</div>
+        <div class="name"> </div>
         <!-- <div class="list">
             <div class="list-item"><a href="#news">News</a></div>
             <div class="list-item">
@@ -42,17 +42,17 @@
       </div>
 
 
-<!--      <div class="head-phone">-->
-<!--        <div class="name">Patrick Chiang</div>-->
-<!--        <svg class="menu-phone" xmlns="http://www.w3.org/2000/svg" width="21" height="19" viewBox="0 0 21 19"-->
-<!--          fill="none">-->
-<!--          <path fill-rule="evenodd" clip-rule="evenodd"-->
-<!--            d="M0 1.5C0 0.671573 0.671573 0 1.5 0H19.5C20.3284 0 21 0.671573 21 1.5C21 2.32843 20.3284 3 19.5 3H1.5C0.671573 3 0 2.32843 0 1.5ZM0 9.5C0 8.67157 0.671573 8 1.5 8H19.5C20.3284 8 21 8.67157 21 9.5C21 10.3284 20.3284 11 19.5 11H1.5C0.671573 11 0 10.3284 0 9.5ZM1.5 16C0.671573 16 0 16.6716 0 17.5C0 18.3284 0.671573 19 1.5 19H19.5C20.3284 19 21 18.3284 21 17.5C21 16.6716 20.3284 16 19.5 16H1.5Z"-->
-<!--            fill="#808080" />-->
-<!--        </svg>-->
-<!--      </div>-->
-<!--    </div>-->
-    <!-- <div class="main-content">
+      <!--      <div class="head-phone">-->
+      <!--        <div class="name">Patrick Chiang</div>-->
+      <!--        <svg class="menu-phone" xmlns="http://www.w3.org/2000/svg" width="21" height="19" viewBox="0 0 21 19"-->
+      <!--          fill="none">-->
+      <!--          <path fill-rule="evenodd" clip-rule="evenodd"-->
+      <!--            d="M0 1.5C0 0.671573 0.671573 0 1.5 0H19.5C20.3284 0 21 0.671573 21 1.5C21 2.32843 20.3284 3 19.5 3H1.5C0.671573 3 0 2.32843 0 1.5ZM0 9.5C0 8.67157 0.671573 8 1.5 8H19.5C20.3284 8 21 8.67157 21 9.5C21 10.3284 20.3284 11 19.5 11H1.5C0.671573 11 0 10.3284 0 9.5ZM1.5 16C0.671573 16 0 16.6716 0 17.5C0 18.3284 0.671573 19 1.5 19H19.5C20.3284 19 21 18.3284 21 17.5C21 16.6716 20.3284 16 19.5 16H1.5Z"-->
+      <!--            fill="#808080" />-->
+      <!--        </svg>-->
+      <!--      </div>-->
+      <!--    </div>-->
+      <!-- <div class="main-content">
       <div class="main-userinfo">
         <div class="info">
           <div>
@@ -105,331 +105,350 @@
       </div>
     </div> -->
 
-    <!-- vedio demo -->
-    <div class="main-content" style="padding-bottom: 38px">
-      <div class="main-swiper" id="videos">
-        <div class="swiper-content">
-          <div class="slide-source">
-            <video id="video1" autoplay loop muted>
-              <source src="./assets/vedio01.mp4" type="video/mp4" />
-            </video>
-            <div id="p1">
-              Robotic car control with LLM.
-              AI agents & code generation.
-            </div>
-          </div>
-          <div class="slide-source">
-            <a href="">
-              <video id="video2" autoplay loop muted>
-                <source src="./assets/vedio02.mp4" type="video/mp4" />
+      <!-- vedio demo -->
+      <div class="main-content" style="padding-bottom: 38px">
+        <div class="main-swiper" id="videos">
+          <div class="swiper-content">
+            <div class="slide-source">
+              <video id="video1" autoplay loop muted>
+                <source src="./assets/vedio01.mp4" type="video/mp4" />
               </video>
-              <div id="p2">
-                Robotic arm control with OPENVLA.
-                An end to end solution for robot control.
+              <div id="p1">
+                Robotic car control with LLM.
+                AI agents & code generation.
               </div>
-            </a>
+            </div>
+            <div class="slide-source">
+              <a href="">
+                <video id="video2" autoplay loop muted>
+                  <source src="./assets/vedio02.mp4" type="video/mp4" />
+                </video>
+                <div id="p2">
+                  Robotic arm control with OPENVLA.
+                  An end to end solution for robot control.
+                </div>
+              </a>
+            </div>
+            <script>
+              var video = document.getElementById('video2');
+              var container = document.getElementById('p2');
+              container.style.width = video.clientWidth - 56 + 'px';
+            </script>
           </div>
-          <script>
-            var video = document.getElementById('video2');
-            var container = document.getElementById('p2');
-            container.style.width = video.clientWidth - 56 + 'px';
-          </script>
+
+
+
         </div>
-
-
-
       </div>
-    </div>
-
-    
-    <div class="main-content">
-      <div id="news" class="main-news">
 
 
-        <div class="title">AI Design 2H-2024</div>
-        <div class="about">
-          About
+      <div class="main-content">
+        <div id="news" class="main-news">
+
+
+          <div class="title">AI Design 2H-2024</div>
+          <div class="about">
+            About
+          </div>
+
+          <div>
+            <p class="about_content">
+              This course provides an in-depth exploration and application of the Large Language Model (Transformer
+              architecture), a foundational model in
+              modern AI. As one of the most influential developments in AI, the
+              Transformer-LLM architecture has revolutionized fields such as natural language processing, computer
+              vision, robotics,
+              and beyond. Students will gain a comprehensive understanding of how Transformer-based LLMs operate,
+              including encoding, attention mechanisms, training, quantization, and how they enable state-of-the-art AI
+              applications. The course will also involve discussions in to the latest technologies and methodologies
+              employed in some of the most advanced projects globally.
+              Through hands-on experience, students will learn to apply these techniques to real-world scenarios,
+              equipping them with the knowledge and skills necessary to innovate in AI. Whether you're looking to
+              understand the intricacies of Transformers or explore cutting-edge AI applications, this course will
+              provide you with the tools to succeed.
+
+            </p>
+            <i> Partially written by GPT-4</i>
+          </div>
+
+
         </div>
+      </div>
 
+
+
+      <div class="main-news">
         <div>
-          <p class="about_content">
-            This course provides an in-depth exploration of the Transformers architecture, a foundational model in
-            modern AI, and its wide-ranging applications. As one of the most influential developments in AI, the
-            Transformers architecture has revolutionized fields such as natural language processing, computer vision,
-            and beyond. Students will gain a comprehensive understanding of how Transformers work, including their
-            attention mechanisms, and how they power state-of-the-art AI applications. The course will also delve
-            into the latest technologies and methodologies employed in some of the most advanced projects globally.
-            Through hands-on experience, students will learn to apply these techniques to real-world scenarios,
-            equipping them with the knowledge and skills necessary to innovate in AI. Whether you're looking to
-            understand the intricacies of Transformers or explore cutting-edge AI applications, this course will
-            provide you with the tools to succeed.
-          </p>
-        </div>
-
-
-      </div>
-    </div>
-
-
-
-    <div class="main-news">
-      <div>
           <ul>
-            <li >
+            <li>
               <div>
                 <strong>Lecture Repository: </strong>
-                <a href="https://github.com/Patrick-Group/AI_Course_Transformers">https://github.com/Patrick-Group/AI_Course_Transformers</a>
+                <a
+                  href="https://github.com/Patrick-Group/AI_Course_Transformers">https://github.com/Patrick-Group/AI_Course_Transformers</a>
               </div>
             </li>
 
 
-            <li >
-              <div >
+            <li>
+              <div>
                 <p><strong>Course Time: </strong>Wednesday 18:30-20:10</p>
               </div>
             </li>
 
 
-            <li >
-              <div >
-                <p><strong>Location: </strong>H-3306</p>
-              </div>
-            </li>
-
             <li>
-              <div >
-                <p><strong>TA: </strong> Yawen Guan(Viki)</p>
-                <!-- <ul class="TA">
-                  <li >Viky</li>
-                  <li >Yao</li>
-                  <li >Wan</li>
-                </ul> -->
+              <div>
+                <p><strong>Hybird Location: </strong>H-3306(Handan)/Online(Zhangjiang)</p>
               </div>
             </li>
 
             <li>
               <div>
-                <p><strong> Course Schedule: <a href="https://docs.qq.com/sheet/DZEZPcXJzWHhLQkJF?u=4782b3af74644ad8b714557996e2e8a5&tab=BB08J2">Doc</a></strong> </p>
+                <p><strong>Professor: </strong> Patrick Chiang</p>
+              </div>
+            </li>
+
+
+            <li>
+              <div>
+                <p><strong>Instructor: </strong> Chengzhao Yao</p>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <p><strong>Researcher: </strong> Biao Wan</p>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <p><strong>TA: </strong> Yawen Guan(Viki)</p>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <p><strong> Course Schedule: <a
+                      href="https://docs.qq.com/sheet/DZEZPcXJzWHhLQkJF?u=4782b3af74644ad8b714557996e2e8a5&tab=BB08J2">Doc</a></strong>
+                </p>
               </div>
             </li>
 
           </ul>
           <div class="divider"></div>
           <div></div>
+        </div>
       </div>
-    </div>
 
 
-  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-    crossorigin="anonymous"></script>
-  <script>
-    document
-      .getElementById('link1')
-      .addEventListener('click', function (event) {
-        event.preventDefault(); // 阻止默认锚点跳转行为
-        const targetElement = document.getElementById('news');
-        const offset = 70; // 位移量
-        const targetPosition =
-          targetElement.getBoundingClientRect().top + window.pageYOffset;
-        const offsetPosition = targetPosition - offset;
+      <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+      <script>
+        document
+          .getElementById('link1')
+          .addEventListener('click', function (event) {
+            event.preventDefault(); // 阻止默认锚点跳转行为
+            const targetElement = document.getElementById('news');
+            const offset = 70; // 位移量
+            const targetPosition =
+              targetElement.getBoundingClientRect().top + window.pageYOffset;
+            const offsetPosition = targetPosition - offset;
 
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth',
-        });
-      });
-    document
-      .getElementById('link2')
-      .addEventListener('click', function (event) {
-        event.preventDefault(); // 阻止默认锚点跳转行为
-        const targetElement = document.getElementById('publications');
-        const offset = 70; // 位移量
-        const targetPosition =
-          targetElement.getBoundingClientRect().top + window.pageYOffset;
-        const offsetPosition = targetPosition - offset;
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth',
+            });
+          });
+        document
+          .getElementById('link2')
+          .addEventListener('click', function (event) {
+            event.preventDefault(); // 阻止默认锚点跳转行为
+            const targetElement = document.getElementById('publications');
+            const offset = 70; // 位移量
+            const targetPosition =
+              targetElement.getBoundingClientRect().top + window.pageYOffset;
+            const offsetPosition = targetPosition - offset;
 
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth',
-        });
-      });
-    document
-      .getElementById('link3')
-      .addEventListener('click', function (event) {
-        event.preventDefault(); // 阻止默认锚点跳转行为
-        const targetElement = document.getElementById('awards');
-        const offset = 70; // 位移量
-        const targetPosition =
-          targetElement.getBoundingClientRect().top + window.pageYOffset;
-        const offsetPosition = targetPosition - offset;
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth',
+            });
+          });
+        document
+          .getElementById('link3')
+          .addEventListener('click', function (event) {
+            event.preventDefault(); // 阻止默认锚点跳转行为
+            const targetElement = document.getElementById('awards');
+            const offset = 70; // 位移量
+            const targetPosition =
+              targetElement.getBoundingClientRect().top + window.pageYOffset;
+            const offsetPosition = targetPosition - offset;
 
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth',
-        });
-      });
-    document
-      .getElementById('link4')
-      .addEventListener('click', function (event) {
-        event.preventDefault(); // 阻止默认锚点跳转行为
-        const targetElement = document.getElementById('teaching');
-        const offset = 70; // 位移量
-        const targetPosition =
-          targetElement.getBoundingClientRect().top + window.pageYOffset;
-        const offsetPosition = targetPosition - offset;
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth',
+            });
+          });
+        document
+          .getElementById('link4')
+          .addEventListener('click', function (event) {
+            event.preventDefault(); // 阻止默认锚点跳转行为
+            const targetElement = document.getElementById('teaching');
+            const offset = 70; // 位移量
+            const targetPosition =
+              targetElement.getBoundingClientRect().top + window.pageYOffset;
+            const offsetPosition = targetPosition - offset;
 
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth',
-        });
-      });
-    document
-      .getElementById('link5')
-      .addEventListener('click', function (event) {
-        event.preventDefault(); // 阻止默认锚点跳转行为
-        const targetElement = document.getElementById('professional');
-        const offset = 70; // 位移量
-        const targetPosition =
-          targetElement.getBoundingClientRect().top + window.pageYOffset;
-        const offsetPosition = targetPosition - offset;
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth',
+            });
+          });
+        document
+          .getElementById('link5')
+          .addEventListener('click', function (event) {
+            event.preventDefault(); // 阻止默认锚点跳转行为
+            const targetElement = document.getElementById('professional');
+            const offset = 70; // 位移量
+            const targetPosition =
+              targetElement.getBoundingClientRect().top + window.pageYOffset;
+            const offsetPosition = targetPosition - offset;
 
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth',
-        });
-      });
-    document
-      .getElementById('link6')
-      .addEventListener('click', function (event) {
-        event.preventDefault(); // 阻止默认锚点跳转行为
-        const targetElement = document.getElementById('opportunities');
-        const offset = 70; // 位移量
-        const targetPosition =
-          targetElement.getBoundingClientRect().top + window.pageYOffset;
-        const offsetPosition = targetPosition - offset;
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth',
+            });
+          });
+        document
+          .getElementById('link6')
+          .addEventListener('click', function (event) {
+            event.preventDefault(); // 阻止默认锚点跳转行为
+            const targetElement = document.getElementById('opportunities');
+            const offset = 70; // 位移量
+            const targetPosition =
+              targetElement.getBoundingClientRect().top + window.pageYOffset;
+            const offsetPosition = targetPosition - offset;
 
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth',
-        });
-      });
-  </script>
-  <script type="text/javascript">
-    function onresizeFun() {
-      if (window.innerWidth <= 768) {
-        let width = document.documentElement.clientWidth;
-        // 假设设计稿宽度为750px
-        // 假设已知根元素我们设置为100px（这里设置100方便后续我们好计算）
-        // 动态设置根元素html的fontSize
-        document.documentElement.style.fontSize = 100 * (width / 430) + 'px';
-        $('.head-pc').css('display', 'none');
-        $('.icon').css('display', 'none');
-        $('.swiper-content').css('display', 'none');
-        $('.head-phone').css('display', 'flex');
-        $('.icon-phone').css('display', 'flex');
-        $('.swiper-content-phone').css('display', 'block');
-      } else {
-        $('.head-pc').css('display', 'flex');
-        $('.icon').css('display', 'flex');
-        $('.swiper-content').css('display', 'block');
-        $('.swiper-content-phone').css('display', 'none');
-        $('.head-phone').css('display', 'none');
-        $('.icon-phone').css('display', 'none');
-      }
-      $('.main').css('display', 'block');
-    }
-
-    // pc 视频自动播放
-    function autoPlayVideo() {
-      const videosContainer = document.getElementById('videos');
-      const videos = document.querySelectorAll('video');
-
-      // 检查视频是否在可见范围内
-      function checkVisibility(video) {
-        const rect = video.getBoundingClientRect();
-        const containerRect = videosContainer.getBoundingClientRect();
-        return (
-          rect.top >= containerRect.top &&
-          rect.left >= containerRect.left &&
-          rect.bottom <= containerRect.bottom &&
-          rect.right <= containerRect.right
-        );
-      }
-
-      // 控制视频的播放和暂停
-      function controlVideoPlayback() {
-        videos.forEach((video) => {
-          if (checkVisibility(video)) {
-            video.play();
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth',
+            });
+          });
+      </script>
+      <script type="text/javascript">
+        function onresizeFun() {
+          if (window.innerWidth <= 768) {
+            let width = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = 100 * (width / 430) + 'px';
+            $('.head-pc').css('display', 'none');
+            $('.icon').css('display', 'none');
+            $('.swiper-content').css('display', 'none');
+            $('.head-phone').css('display', 'flex');
+            $('.icon-phone').css('display', 'flex');
+            $('.swiper-content-phone').css('display', 'block');
           } else {
-            video.pause();
+            $('.head-pc').css('display', 'flex');
+            $('.icon').css('display', 'flex');
+            $('.swiper-content').css('display', 'block');
+            $('.swiper-content-phone').css('display', 'none');
+            $('.head-phone').css('display', 'none');
+            $('.icon-phone').css('display', 'none');
+          }
+          $('.main').css('display', 'block');
+        }
+
+        // pc 视频自动播放
+        function autoPlayVideo() {
+          const videosContainer = document.getElementById('videos');
+          const videos = document.querySelectorAll('video');
+
+          // 检查视频是否在可见范围内
+          function checkVisibility(video) {
+            const rect = video.getBoundingClientRect();
+            const containerRect = videosContainer.getBoundingClientRect();
+            return (
+              rect.top >= containerRect.top &&
+              rect.left >= containerRect.left &&
+              rect.bottom <= containerRect.bottom &&
+              rect.right <= containerRect.right
+            );
+          }
+
+          // 控制视频的播放和暂停
+          function controlVideoPlayback() {
+            videos.forEach((video) => {
+              if (checkVisibility(video)) {
+                video.play();
+              } else {
+                video.pause();
+              }
+            });
+          }
+
+          // 初始检查
+          controlVideoPlayback();
+
+          // 滚动事件监听
+          videosContainer.addEventListener('scroll', controlVideoPlayback);
+          window.addEventListener('resize', controlVideoPlayback);
+        }
+
+        onresizeFun();
+        window.addEventListener('resize', onresizeFun);
+
+        document.addEventListener('DOMContentLoaded', function () {
+          // 图片懒加载
+          // 图片懒加载
+          //const observer = new IntersectionObserver((entries) => {
+          //  entries.forEach((entry) => {
+          //    if (entry.isIntersecting) {
+          //      const img = entry.target;
+          //      img.src = img.getAttribute('data-src');
+          //      observer.unobserve(img);
+          //     }
+          //   });
+          //  });
+
+          //document.querySelectorAll('img.lazy-load').forEach((img) => {
+          // observer.observe(img);
+          // });
+
+          // 菜单点击事件
+          $('.menu-phone').click(() => {
+            $('.modal').addClass('modal-active');
+            $('body').addClass('noscroll');
+          });
+          $('.modal-close').click(() => {
+            $('.modal').removeClass('modal-active');
+            $('body').removeClass('noscroll');
+          });
+          $('.modal-content-item').click(function () {
+            // Remove the 'item-active' class from all siblings
+            $(this).siblings('.modal-content-item').removeClass('item-active');
+            // Add the 'item-active' class to the clicked element
+            $(this).addClass('item-active');
+            $('.modal').removeClass('modal-active');
+            $('body').removeClass('noscroll');
+          });
+
+          if (window.innerWidth > 768) {
+            autoPlayVideo();
           }
         });
-      }
 
-      // 初始检查
-      controlVideoPlayback();
-
-      // 滚动事件监听
-      videosContainer.addEventListener('scroll', controlVideoPlayback);
-      window.addEventListener('resize', controlVideoPlayback);
-    }
-
-    onresizeFun();
-    window.addEventListener('resize', onresizeFun);
-
-    document.addEventListener('DOMContentLoaded', function () {
-      // 图片懒加载
-      // 图片懒加载
-      //const observer = new IntersectionObserver((entries) => {
-      //  entries.forEach((entry) => {
-      //    if (entry.isIntersecting) {
-      //      const img = entry.target;
-      //      img.src = img.getAttribute('data-src');
-      //      observer.unobserve(img);
-      //     }
-      //   });
-      //  });
-
-      //document.querySelectorAll('img.lazy-load').forEach((img) => {
-      // observer.observe(img);
-      // });
-
-      // 菜单点击事件
-      $('.menu-phone').click(() => {
-        $('.modal').addClass('modal-active');
-        $('body').addClass('noscroll');
-      });
-      $('.modal-close').click(() => {
-        $('.modal').removeClass('modal-active');
-        $('body').removeClass('noscroll');
-      });
-      $('.modal-content-item').click(function () {
-        // Remove the 'item-active' class from all siblings
-        $(this).siblings('.modal-content-item').removeClass('item-active');
-        // Add the 'item-active' class to the clicked element
-        $(this).addClass('item-active');
-        $('.modal').removeClass('modal-active');
-        $('body').removeClass('noscroll');
-      });
-
-      if (window.innerWidth > 768) {
-        autoPlayVideo();
-      }
-    });
-
-    function hideshow(a, which) {
-      console.log(which);
-      if (!document.getElementById) return;
-      if (which.style.display == 'block') {
-        which.style.display = 'none';
-        a.style.background = 'none';
-      } else {
-        which.style.display = 'block';
-        a.style.background = 'rgba(189,220,255,0.30)';
-      }
-    }
-  </script>
+        function hideshow(a, which) {
+          console.log(which);
+          if (!document.getElementById) return;
+          if (which.style.display == 'block') {
+            which.style.display = 'none';
+            a.style.background = 'none';
+          } else {
+            which.style.display = 'block';
+            a.style.background = 'rgba(189,220,255,0.30)';
+          }
+        }
+      </script>
 </body>
 
 </html>
